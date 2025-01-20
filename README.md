@@ -22,8 +22,8 @@ The documentation, implementation, and demo for this is in the [python-cortex-ap
 
 Finally, I created a React application called Inner Voice that gives speech insights from your brainwaves. It works by leveraging the Cortex API, specifically the [Performance Metrics](https://emotiv.gitbook.io/cortex-api/data-subscription/data-sample-object#performance-metric) data stream, to tell the speaker the emotions in which they delivered their speech.
 
-Inner Voice is located in the [Inner Voice](https://github.com/jamesmcaleer/emotiv-dev-winter/tree/main/python-cortex-api-change-v2-asyncio) directory.
+Inner Voice is located in the [Inner Voice](https://github.com/jamesmcaleer/emotiv-dev-winter/tree/main/InnerVoice) directory.
 
-The code for the [FastAPI](https://fastapi.tiangolo.com/) backend of Inner Voice is in the [backend](https://github.com/jamesmcaleer/emotiv-dev-winter/tree/main/python-cortex-api-change-v2-asyncio/backend) folder.
+The code for the [FastAPI](https://fastapi.tiangolo.com/) backend of Inner Voice is in the [backend](https://github.com/jamesmcaleer/emotiv-dev-winter/tree/main/InnerVoice/backend) folder.
 
 The demo video is in my [LinkedIn Post](https://www.linkedin.com/feed/update/urn:li:activity:7286010756205064193/).
