@@ -101,31 +101,10 @@ async def slash_analyze(audio: UploadFile = File(...)):
 
 
 client_id = 'vdKgSHlfEJillybmFxYQuGRhRu71cxRBaFzY4zQg'
-client_secret =                                                                                                                                                 'ZlMnhrQGEelAALvY27FYFaf8COVOyXMcuGjscnzU0HbMBb66JP8ggsVfgqi00oFJ37QFSJN9fWtqZ2xCqt7Q5XSkhaKYw6TS6qc52T0w4IUm2Diukb62P2NYY16IK1Rk'
+client_secret =''
 debug = True
 cortex_handler = CortexHandler(client_id, client_secret, debug)
 
 start_time = 0
 first_data_time = 0
 
-'''
-{isRecording ? (
-                <button className="stop-recording" onClick={handleStopRecording}>Stop Recording</button>
-                ) : (
-                <button 
-                    className="start-recording" 
-                    /*onClick={handleStartRecording}*/
-                    style={{
-                        backgroundColor: isRecording ? "red" : "grey",
-                        cursor: isRecording ? "default" : "pointer",
-                    }}
-                    
-                >
-                    <img 
-                        src={microphoneIcon} 
-                        alt="record"
-                        onClick={() => setIsRecording(true)}
-                    />
-                </button>
-                )}
-'''
