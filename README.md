@@ -12,7 +12,7 @@ I made changes to the EMOTIV provided [cortex.py](https://github.com/Emotiv/cort
 
 The documentation, implementation, and demo for this is in the [python-cortex-api-change-v1-threading](https://github.com/jamesmcaleer/emotiv-dev-winter/tree/main/python-cortex-api-change-v1-threading) folder.
 
-## Cortex API Python lib update 1 (async)
+## Cortex API Python lib update 2 (async)
 
 I then changed the updated [cortex.py](https://github.com/jamesmcaleer/emotiv-dev-winter/tree/main/python-cortex-api-change-v1-threading/cortex.py) file to work with the [asyncio](https://docs.python.org/3/library/asyncio.html) library.
 
