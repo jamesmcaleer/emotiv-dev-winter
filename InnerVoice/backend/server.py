@@ -100,8 +100,8 @@ async def slash_analyze(audio: UploadFile = File(...)):
 
 
 
-client_id = 'vdKgSHlfEJillybmFxYQuGRhRu71cxRBaFzY4zQg'
-client_secret =''
+client_id = ''
+client_secret = ''
 debug = True
 cortex_handler = CortexHandler(client_id, client_secret, debug)
 
