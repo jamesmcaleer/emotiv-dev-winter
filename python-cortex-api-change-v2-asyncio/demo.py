@@ -39,8 +39,8 @@ async def wait_for_keypress():
     await loop.run_in_executor(None, sys.stdin.read, 1)
 
 async def main():
-    client_id = 'vdKgSHlfEJillybmFxYQuGRhRu71cxRBaFzY4zQg'
-    client_secret =                                                                                                                                                 'ZlMnhrQGEelAALvY27FYFaf8COVOyXMcuGjscnzU0HbMBb66JP8ggsVfgqi00oFJ37QFSJN9fWtqZ2xCqt7Q5XSkhaKYw6TS6qc52T0w4IUm2Diukb62P2NYY16IK1Rk'
+    client_id = ''
+    client_secret = ''
     debug = True
 
     demo = Demo(client_id, client_secret, debug)
